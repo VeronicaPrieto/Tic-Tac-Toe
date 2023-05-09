@@ -1,18 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Georgia:400,800');
+
+body{
+  background-color: rgb(250, 229, 202);
+}
+
+h1{
+  color:rgb(248, 105, 10);
+  font-family: "Georgia",serif;
+  font-size: xxx-large;
+  border-color: black;
+}
+
 #board {
-    display: flex;
-    flex-wrap: wrap;
-    width: 300px;
-    height: 300px;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 300px;
+  margin:auto;
+}
   
-  .cells {
-    width: 30%;
-    height: 100px;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 60px;
-    cursor: pointer;
-  }
-  
+.cells {
+  width: 30%;
+  height: 100px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  cursor: pointer;
+  background-color: rgba(241, 166, 25, 0.562);
+} 
+
+#detalle{
+  margin-bottom: 50px;
+  width: 100%;
+  height: 100%;
+  float: left;
+  color: #f6f5f7;
+  font-family: "Georgia",serif;
+  font-size: large;
+  color:rgb(0, 0, 0);
+}
+
+input {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  translate:initial;
+	width: 20%;
+  padding: 10px 20px;
+  border: black;
+  background-color: #f38181;
+}
+
+button {
+  font-size: 15px;
+	font-weight: bold;
+	padding: 10px 65px;
+	border-radius: 1000px;
+	background-color: #ff3b3b;
+	border: 1px solid #fc3939;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}

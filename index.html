@@ -5,18 +5,37 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>Juguemos Ta Te Ti</h1>
-    <div id="board">
-      <div class="cells"></div>
-      <div class="cells"></div>
-      <div class="cells"></div>
-      <div class="cells"></div>
-      <div class="cells"></div>
-      <div class="cells"></div>
-      <div class="cells"></div>
-      <div class="cells"></div>
-      <div class="cells"></div>
+    <div id="contenedor">
+      <h1>Juguemos Ta Te Ti</h1>
+      <div id="detalle">
+        <div>
+          <ul>
+            <li>Tienes que introducir el nombre de ambos jugadores, estos quedarán guardados a medida que jueguen.</li>
+            <li> El primer nombre que introduzcas sera X y el segundo sera O por defecto.</li>
+            <li> Para comenzar a jugar debes hacer click en Comenzar juego.</li>
+            <li> El jugador que logre colocar tres de sus marcas en una fila horizontal, vertical o diagonal gana el juego.</li>
+            <li> Para obtener una revancha solo debes de hacer click en Reiniciar Juego.</li>
+          </ul>
+        </div>
+      </div>    
+      <div id="board">
+        <div class="cells"></div>
+        <div class="cells"></div>
+        <div class="cells"></div>
+        <div class="cells"></div>
+        <div class="cells"></div>
+        <div class="cells"></div>
+        <div class="cells"></div>
+        <div class="cells"></div>
+        <div class="cells"></div>
+      </div>
+      <div id="players">
+        <input type="text" id="player1" placeholder="Jugador 1">
+        <input type="text" id="player2" placeholder="Jugador 2">
+      </div>
+      <button id="comenzar">Comenzar Juego</button>
+      <button id="reiniciar">Reiniciar Juego</button>
+      <script src="./script.js"></script>
     </div>
-    <script src="./script.js"></script>
   </body>
 </html>
